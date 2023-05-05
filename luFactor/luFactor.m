@@ -1,12 +1,12 @@
 function [L, U, P] = luFactor(A)
-% luFactor(A)
-%	LU decomposition with pivoting 
+%	Completes an LU decomposition with pivoting 
 %% Inputs:
 %	A = coefficient matrix
 %% Outputs:
 %	L = lower triangular matrix
 %	U = upper triangular matrix
 %   P = the permutation matrix
+
 
 %% Input Validity Check
 [nRows,mCols] = size(A)
