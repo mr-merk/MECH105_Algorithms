@@ -1,9 +1,9 @@
 function [L, U, P] = luFactor(A)
 % luFactor(A)
 %	LU decomposition with pivoting 
-% inputs:
+%% Inputs:
 %	A = coefficient matrix
-% outputs:
+%% Outputs:
 %	L = lower triangular matrix
 %	U = upper triangular matrix
 %   P = the permutation matrix
