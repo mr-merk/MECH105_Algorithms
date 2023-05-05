@@ -1,8 +1,8 @@
-function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
+function [root, fx, ea, iter] = FalsePosition(func, xl, xu, es, maxit)
 % A custom function designed to solve for the root of a function using the
 % False Position method.
 % 
-% Inputs
+%% Inputs
 % func - function of which root you need to find
 % xl - lower bound on the root x values
 % xu - upper bound on the root x values
