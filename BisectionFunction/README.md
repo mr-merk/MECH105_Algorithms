@@ -1,5 +1,5 @@
 # Bisection Function
-A custom function designed to solve for the root of a function using the
+A custom MATLAB function designed to solve for the root of a function using the
 bisection method. Contains an error check to see if initial guesses are valid.<br />
 
 [root, iter, ea] = BisectionFunction(func,xl,xu,es,maxiter)<br />
