@@ -2,7 +2,7 @@ function [x1, iter, ea] = FixedPointFunction(g,x0,es,maxiter)
 % A custom function designed to solve for the root of a function using the
 % fixed point method, with x = g(x)
 % 
-% Inputs
+%% Inputs
 % g - x=g(x) of which root you need to find
 % x0 - initial guess for x
 % es - stopping criterion in %(0.1% if not specified)
